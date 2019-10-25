@@ -1,0 +1,98 @@
+html{
+    font-size: 0.75em;
+    font:"宋体";
+    height: auto;
+}
+body{
+    height: auto;
+}
+.banner_top_r ul li:hover{
+    background-color: #0266a3;
+}
+.banner_top_r ul li:hover a{
+    color: azure;
+}
+.box{
+    position: relative;
+}
+.banner_bottom_logo{
+    position: absolute;
+    left:15%;
+    width: 20%;
+    display: none;
+}
+.banner_top_l{
+    position: absolute;
+    top: 0.4%;
+    left: 15%;
+}
+.banner_top_r{
+    margin-top: 10px;
+}
+.banner_bottom_l{
+    top: 9%;
+    left: 15%;
+    position: absolute;
+    width: 13%;
+}
+.banner_bottom_r{
+    top: 9%;
+    left:30%;
+    position: absolute;
+    width: 13%;
+}
+a{
+    color: #0266a3;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.banner_top_r ul li{
+    float: left;
+    line-height: 80px;
+    margin-right: 40px;
+}
+
+h1{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color:blueviolet;
+    font-style: unset;
+    margin-top: 30px;
+}
+p{
+    color: rgb(221, 221, 221);
+    text-align: center;
+    font-size: 1.2em;
+}
+.callus{
+    margin-top: 20px;;
+}
+.anli{
+    margin-top: 30px;
+}
+@media screen and (max-width:888px){
+    .banner_top{
+        display: none;
+    }
+    .banner_bottom_l{
+        top: 7.5%;
+        left: 15%;
+        position: absolute;
+        width: 13%;
+    }
+    .banner_bottom_r{
+        top: 7.5%;
+        left: 30%;
+        position: absolute;
+        width: 13%;
+    }
+    .banner_bottom_logo{
+        position: absolute;
+        left:15%;
+        top: 0.02%;
+        width: 20%;
+        display: block;
+    }
+}
